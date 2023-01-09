@@ -72,17 +72,16 @@ nav ul li {
   float: right;
 }
 
-/* Styles applied to both the Previous Work and Contact Me section */
-#previous-work, #contact-me {
+/* Styles applied to the Previous Work section */
+#previous-work {
   flex: 1 0 30%;
   justify-content: center;
 }
 
-#previous-work h2, #contact-me h2 {
+#previous-work h2 h2 {
   margin-right: auto;
 }
 
-/* Styles applied to the Previous Work section */
 #previous-work div {
   margin-left: 7%;
 }
@@ -96,19 +95,6 @@ nav ul li {
 #previous-work img:hover {
   width: 35%;
   animation: enlarge 0.3s;
-}
-
-/* Styles applied to the Contact Me section */
-#contact-me h2 {
-  width: 100%;
-}
-
-#contact-me span, #contact-me a {
-  width: 30%;
-  text-align: center;
-  font-size: 130%;
-  color: gray;
-  text-decoration: underline;
 }
 
 /* Animations for the Previous Work section's images */
