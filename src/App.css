@@ -1,0 +1,186 @@
+/* Styles applied to the entire document/body */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #d9dcd6;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+/* Styles applied to the header and footer */
+header, footer {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 200%;
+}
+
+nav {
+  float: right;
+  padding-top: 15px;
+  margin-right: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 120%;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* Styles applied to the profile picture in the top right corner */
+#profile-pic {
+  border-radius: 50%;
+  margin: 20px 20px 0px 0px;
+  width: 150px;
+  float: right;
+}
+
+/* Styles applied to both the Previous Work and Contact Me section */
+#previous-work, #contact-me {
+  flex: 1 0 30%;
+  justify-content: center;
+}
+
+#previous-work h2, #contact-me h2 {
+  margin-right: auto;
+}
+
+/* Styles applied to the Previous Work section */
+#previous-work div {
+  margin-left: 7%;
+}
+
+#previous-work img {
+  width: 30%;
+  vertical-align: middle;
+  animation: shrink 0.3s;
+}
+
+#previous-work img:hover {
+  width: 35%;
+  animation: enlarge 0.3s;
+}
+
+/* Styles applied to the Contact Me section */
+#contact-me h2 {
+  width: 100%;
+}
+
+#contact-me span, #contact-me a {
+  width: 30%;
+  text-align: center;
+  font-size: 130%;
+  color: gray;
+  text-decoration: underline;
+}
+
+/* Animations for the Previous Work section's images */
+@keyframes enlarge {
+  0% {
+    width: 30%;
+  }
+  100% {
+    width: 35%;
+  }
+}
+
+@keyframes enlarge-768px {
+  0% {
+    width: 40%;
+  }
+  100% {
+    width: 45%;
+  }
+}
+
+@keyframes shrink {
+  0% {
+    width: 35%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+@keyframes shrink-768px {
+  0% {
+    width: 45%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+
+/* For tablet users */
+@media screen and (max-width: 992px) {
+  #contact-me {
+    flex-direction: column;
+  }
+  #contact-me span, #contact-me a {
+    text-align: left;
+  }
+}
+
+/* For mobile phone users */
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  #first-nav {
+    margin-left: 0px;
+  }
+
+  #previous-work div {
+    margin-left: 12%;
+  }
+
+  #previous-work img {
+    width: 40%;
+    animation: shrink-768px 0.3s;
+  }
+
+  #previous-work img:hover {
+    width: 45%;
+    animation: enlarge-768px 0.3s;
+  }
+}
