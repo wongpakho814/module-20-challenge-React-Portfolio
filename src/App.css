@@ -42,6 +42,10 @@ footer {
   text-align: center;
 }
 
+footer a {
+    margin-left: 25px;
+}
+
 header h1 {
   display: inline-block;
   font-size: 200%;

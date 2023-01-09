@@ -3,13 +3,15 @@ import Navigation from "./Navigation";
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <header>
       <h1>Pak Ho Wong</h1>
-      <Navigation
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
-    </div>
+      <nav>
+        <Navigation
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
+      </nav>
+    </header>
   );
 }
 
