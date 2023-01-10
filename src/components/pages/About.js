@@ -4,8 +4,8 @@ import pfp from "../../images/personal-pic.jfif";
 function About() {
   return (
     <section id="about-me">
-      <img id="profile-pic" src={pfp} alt="My pfp" />
       <h2>About Me</h2>
+      <img id="profile-pic" src={pfp} alt="My pfp" />
       <p>
         Hey there! My name is Pak Ho Wong and I am a fresh graduate from the
         University of Melbourne, major in Computer Systems and Design. Currently

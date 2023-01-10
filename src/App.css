@@ -27,7 +27,6 @@ section h2 {
   font-size: 36px;
   margin-right: 25px;
   margin-bottom: 15px;
-  text-decoration: underline;
 }
 
 /* Styles applied to the header and footer */
@@ -92,7 +91,7 @@ nav ul li {
 
 /* Styles applied to the Previous Work section */
 #previous-work {
-  flex: 1 0 30%;
+  flex: 1 0 50%;
   justify-content: center;
 }
 
@@ -105,23 +104,28 @@ nav ul li {
 }
 
 #previous-work img {
-  width: 30%;
+  width: 40%;
   vertical-align: middle;
   animation: shrink 0.3s;
+  margin-top: 25px;
+}
+
+#previous-work img:nth-child(odd) {
+    margin-right: 25px;
 }
 
 #previous-work img:hover {
-  width: 35%;
+  width: 45%;
   animation: enlarge 0.3s;
 }
 
 /* Animations for the Previous Work section's images */
 @keyframes enlarge {
   0% {
-    width: 30%;
+    width: 40%;
   }
   100% {
-    width: 35%;
+    width: 45%;
   }
 }
 
@@ -136,10 +140,10 @@ nav ul li {
 
 @keyframes shrink {
   0% {
-    width: 35%;
+    width: 45%;
   }
   100% {
-    width: 30%;
+    width: 40%;
   }
 }
 
