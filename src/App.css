@@ -11,12 +11,13 @@ body {
 }
 
 a {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: gray;
+  color: #d9dcd6;
+  text-decoration: none;
 }
 
 section {
@@ -82,17 +83,19 @@ nav ul li {
 
 #about-me h2 {
   margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 #about-me p {
   font-size: 18px;
   width: 80%;
+  text-align: left;
 }
 
 /* Styles applied to the profile picture in the top right corner */
 #profile-pic {
   border-radius: 50%;
-  margin: 20px 20px 0px 0px;
+  margin: 20px 20px 20px 0px;
   width: 150px;
 }
 
@@ -127,7 +130,9 @@ nav ul li {
 }
 
 /* Styles for the Contact Me page */
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -138,7 +143,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: #2a607c;
   color: white;
   padding: 12px 20px;
@@ -147,14 +152,31 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color: #2a617ca8;
+input[type="submit"]:hover {
+  background-color: #214d63;
 }
 
 #contact-me .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+/* Styling for the resume page */
+#resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: translateY(50%);
+}
+
+#resume a {
+  color: #2a607c;
+}
+
+#resume a:hover {
+  color: #214d63;
 }
 
 /* Animations for the Previous Work section's images */
