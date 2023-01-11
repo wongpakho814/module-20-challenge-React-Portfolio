@@ -19,42 +19,42 @@ function Portfolio() {
               title="cervical cancer screening program Hong Kong"
             />
           </a>
-          <p>Cervical Cancer Screening Program Hong Kong</p>
+          <p className="title">Cervical Cancer Screening Program Hong Kong</p>
           <p>Link to GitHub repo: N/A</p>
         </div>
         <div>
           <a href="#portfolio">
             <img src={sampleImg} alt="sample img 2" title="sample img 2" />
           </a>
-          <p>Sample project</p>
+          <p className="title">Sample project</p>
           <p>Link to GitHub repo: N/A</p>
         </div>
         <div>
           <a href="#portfolio">
             <img src={sampleImg} alt="sample img 3" title="sample img 3" />
           </a>
-          <p>Sample project</p>
+          <p className="title">Sample project</p>
           <p>Link to GitHub repo: N/A</p>
         </div>
         <div>
           <a href="#portfolio">
             <img src={sampleImg} alt="sample img 4" title="sample img 4" />
           </a>
-          <p>Sample project</p>
+          <p className="title">Sample project</p>
           <p>Link to GitHub repo: N/A</p>
         </div>
         <div>
           <a href="#portfolio">
             <img src={sampleImg} alt="sample img 5" title="sample img 5" />
           </a>
-          <p>Sample project</p>
+          <p className="title">Sample project</p>
           <p>Link to GitHub repo: N/A</p>
         </div>
         <div>
           <a href="#portfolio">
             <img src={sampleImg} alt="sample img 6" title="sample img 6" />
           </a>
-          <p>Sample project</p>
+          <p className="title">Sample project</p>
           <p>Link to GitHub repo: N/A</p>
         </div>
       </section>

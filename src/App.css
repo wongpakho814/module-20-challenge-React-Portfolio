@@ -101,7 +101,7 @@ nav ul li {
 
 /* Styles applied to the Previous Work section */
 #portfolio-container {
-    justify-content: center;
+  justify-content: center;
 }
 
 #previous-work {
@@ -113,8 +113,8 @@ nav ul li {
 }
 
 #previous-work div {
-    width: 50%;
-    margin: auto;
+  width: 50%;
+  margin: auto;
 }
 
 #previous-work img {
@@ -135,6 +135,10 @@ nav ul li {
 #previous-work p {
   font-size: 16px;
   margin: auto;
+}
+
+#previous-work .title {
+  font-style: italic;
 }
 
 /* Styles for the Contact Me page */
@@ -176,7 +180,6 @@ input[type="submit"]:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  transform: translateY(50%);
 }
 
 #resume a {
@@ -186,6 +189,11 @@ input[type="submit"]:hover {
 #resume a:hover {
   color: #214d63;
   text-decoration: underline;
+}
+
+#resume p,
+ul {
+  text-align: left;
 }
 
 /* Animations for the Previous Work section's images */
@@ -212,14 +220,10 @@ input[type="submit"]:hover {
   header {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: center;
   }
 
-  #first-nav {
-    margin-left: 0px;
-  }
-
-  #previous-work div {
-    margin-left: 12%;
+  nav ul {
+    padding-left: 0%;
   }
 }

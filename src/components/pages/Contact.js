@@ -33,13 +33,13 @@ function Contact() {
   return (
     <section id="contact-me">
       <form onSubmit={handleSubmit}>
-        <label for="fname">Name</label>
+        <label htmlFor="fname">Name</label>
         <input type="text" id="name" name="name" placeholder="Your name.." />
 
-        <label for="email">Email address</label>
+        <label htmlFor="email">Email address</label>
         <input type="text" id="email" name="email" placeholder="Your email.." />
 
-        <label for="message">Message</label>
+        <label htmlFor="message">Message</label>
         <textarea
           id="message"
           name="message"
@@ -49,7 +49,12 @@ function Contact() {
         <input type="submit" value="Submit" />
         <br />
         <br />
-        {invalidName && <span>Name cannot be empty!<br /></span>}
+        {invalidName && (
+          <span>
+            Name cannot be empty!
+            <br />
+          </span>
+        )}
         {invalidEmail && (
           <span>
             The email has a wrong format/cannot be empty!
