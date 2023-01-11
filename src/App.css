@@ -100,17 +100,25 @@ nav ul li {
 }
 
 /* Styles applied to the Previous Work section */
+#portfolio-container {
+    justify-content: center;
+}
+
 #previous-work {
   display: flex;
-  justify-content: center;
   text-align: center;
   padding-left: 0px;
   padding-right: 0px;
+  vertical-align: middle;
+}
+
+#previous-work div {
+    width: 50%;
+    margin: auto;
 }
 
 #previous-work img {
-  width: 40%;
-  vertical-align: middle;
+  width: 95%;
   animation: shrink 0.3s;
   margin-top: 25px;
 }
@@ -120,13 +128,12 @@ nav ul li {
 }
 
 #previous-work img:hover {
-  width: 45%;
+  width: 100%;
   animation: enlarge 0.3s;
 }
 
 #previous-work p {
   font-size: 16px;
-  width: 40%;
   margin: auto;
 }
 
@@ -184,19 +191,19 @@ input[type="submit"]:hover {
 /* Animations for the Previous Work section's images */
 @keyframes enlarge {
   0% {
-    width: 40%;
+    width: 95%;
   }
   100% {
-    width: 45%;
+    width: 100%;
   }
 }
 
 @keyframes shrink {
   0% {
-    width: 45%;
+    width: 100%;
   }
   100% {
-    width: 40%;
+    width: 95%;
   }
 }
 
