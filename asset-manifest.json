@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/module-20-challenge-React-Portfolio/static/css/main.aad98d84.css",
+    "main.js": "/module-20-challenge-React-Portfolio/static/js/main.3170b861.js",
+    "static/media/cervical-web.png": "/module-20-challenge-React-Portfolio/static/media/cervical-web.5f8c6975fa9f04bd85a9.png",
+    "static/media/personal-pic.jfif": "/module-20-challenge-React-Portfolio/static/media/personal-pic.f8c05ddec72023175fbd.jfif",
+    "index.html": "/module-20-challenge-React-Portfolio/index.html",
+    "main.aad98d84.css.map": "/module-20-challenge-React-Portfolio/static/css/main.aad98d84.css.map",
+    "main.3170b861.js.map": "/module-20-challenge-React-Portfolio/static/js/main.3170b861.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aad98d84.css",
+    "static/js/main.3170b861.js"
+  ]
+}
