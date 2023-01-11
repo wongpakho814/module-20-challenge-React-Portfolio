@@ -16,7 +16,9 @@ Please also make sure to run the command "npm run build" to build all client-sid
 
 Please run the command "npm run start" in terminal to start the server.
 
-link to deployed application: 
+Link to deployed application: https://wongpakho814.github.io/module-20-challenge-React-Portfolio/#portfolio
+
+![screenshot of the finished website](src/images/Screenshot.png)
 
 ## Credits
 
